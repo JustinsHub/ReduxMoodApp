@@ -3,7 +3,7 @@ const INITIAL_STATE = {mood: "(-.-)"}
 const moodChanger = (state = INITIAL_STATE, action) => {
     switch(action.type){
         case "HAPPY":
-            return {...state, mood: state.mood = "ɷ◡ɷ"}
+            return {...state, mood: "ɷ◡ɷ"}
         case "SAD":
             return {...state, mood: state.mood = "Q.Q"}
         case "ANGRY":
